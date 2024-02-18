@@ -1,0 +1,10 @@
+{
+  "name": "blink",
+  "som": "seed",
+  "components": {
+    "led": {
+      "component": "UserLed"
+    }
+  }
+}
+

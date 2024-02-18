@@ -1,0 +1,19 @@
+{
+   "name": "main",
+   "som": "seed",
+
+   "components": {
+        "d2": {
+           "component": "Led",
+           "pin": 2
+       },
+        "d1": {
+           "component": "Led",
+           "pin": 1
+       },
+        "d0": {
+           "component": "Led",
+           "pin": 0
+       }
+   }
+}

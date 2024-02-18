@@ -1,0 +1,16 @@
+#N canvas 827 239 527 327 12;
+#X obj 180 202 osc~ 440;
+#X obj 180 375 dac~;
+#X obj 180 243 *~;
+#X obj 180 293 *~ 0.5;
+#X obj 264 202 osc~ 1;
+#X text 180 129 3 - Flash;
+#X text 180 67 1 - Compile -> Electrosmith Daisy -> Target board -> "Custom JSON", f 73;
+#X text 180 98 2 - Select the file "simple";
+#X text 179 38 0 - Connect a speaker to Pin "out0" and "AGND", f 73;
+#X text 249 292 Very heavy sound... Saturation?;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
+#X connect 3 0 1 1;
+#X connect 4 0 2 1;

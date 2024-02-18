@@ -1,0 +1,12 @@
+{
+    "name": "myseed_2dac",
+    "som": "seed",
+    "components": {
+		"cvout2": {
+			"component": "CVOuts"
+		},
+		"cvout1": {
+			"component": "CVOuts"
+		}
+    }
+}

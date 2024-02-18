@@ -1,0 +1,6 @@
+{
+    "daisy": {
+        "samplerate": 44100,
+        "blocksize": 128
+    }
+}

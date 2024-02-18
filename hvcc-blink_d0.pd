@@ -1,0 +1,15 @@
+#N canvas 0 25 450 300 12;
+#X obj 188 223 loadbang;
+#X obj 188 252 tgl 25 0 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737 0 1;
+#X obj 188 323 tgl 25 0 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737 0 1;
+#X text 188 177 3 - Flash;
+#X text 188 115 1 - Compile -> Electrosmith Daisy -> Target board -> "Custom JSON", f 73;
+#X obj 188 372 s d0 @hv_param;
+#X obj 188 294 metro 1000;
+#X text 188 146 2 - Select the file "seed_d0.json";
+#X text 188 78 0 - Connect an Led between pin "DGND" and pin d0, f 73;
+#X text 188 407 State is inverted... 1 = 0v and 0 = 3.3v ?, f 73;
+#X connect 0 0 1 0;
+#X connect 1 0 6 0;
+#X connect 2 0 5 0;
+#X connect 6 0 2 0;

@@ -1,0 +1,14 @@
+#N canvas 827 239 527 327 12;
+#X obj 186 330 snapshot~;
+#X obj 267 279 bang~;
+#X obj 186 444 dac~;
+#X text 180 129 3 - Flash;
+#X text 245 443 -> signal objects only get evaluated if your patch has audio input or output;
+#X text 325 278 -> output a bang after each DSP block;
+#X obj 186 374 send cvout1 @hv_param;
+#X text 180 67 1 - Compile -> Electrosmith Daisy -> Target board -> "Custom JSON", f 73;
+#X text 180 98 2 - Select file "seed-CVout.json";
+#X obj 186 243 phasor~ 1;
+#X connect 0 0 6 0;
+#X connect 1 0 0 0;
+#X connect 9 0 0 0;
